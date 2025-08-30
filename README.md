@@ -7,13 +7,14 @@
 
 ========
 
-[Задание](https://github.com/netology-code/ra16-homeworks/tree/ra-51/forms/hex2rgb)
+[Task /Задание](https://github.com/netology-code/ra16-homeworks/tree/ra-51/forms/hex2rgb)
 
 Hеобходимо разработать конвертер цветов из HEX в RGB.
 
 ========
 
-## Архитектура проекта и использованные методы
+## Project architecture and used methods
+(Архитектура проекта и использованные методы)
 
 ### Структура компонентов
 
@@ -90,8 +91,18 @@ src/
 ### Статус реализации
 
 **Результат:**
-Интерфейс конвертера: ![Конвертер цветов](./pic/preview.png)
-Функцинальность: Конвертер принимает строку в формате HEX и возвращает строку в формате RGB.
+Интерфейс конвертера: 
+
+![alt text](src/assets/befor-preview.png)
+
+Функцинальность: 
+
+Конвертер принимает строку в формате HEX и возвращает строку в формате RGB.
+![alt text](src/assets/convertation.png)
+
+Ошибка ввода значения цвета: 
+
+![alt text](src/assets/bad-enter-color.png)
 
 ## Использование
 
@@ -109,7 +120,8 @@ src/
 - Добавлена задержка перед конвертацией для улучшения UX
   — ошибка не появляется сразу после ввода первого символа.
 
-# License
+### License
 
 [Лицензия ISC](LICENSE)
+
 Copyright (c) 2025, N.Yurchenko. All rights reserved.
