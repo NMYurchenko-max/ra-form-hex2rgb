@@ -1,0 +1,28 @@
+.converter {
+  max-width: 480px;
+  margin: 4rem auto;
+  padding: 2.5rem;
+  background-color: var(--bg-color, #242424);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+.error {
+  color: #ff4d4f;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.errorBackground {
+  background-color: red;
+  color: black;
+}
+
+.errorBackground .error {
+  color: black;
+}

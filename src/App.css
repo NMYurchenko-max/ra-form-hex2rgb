@@ -1,0 +1,10 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #121212;
+  padding: 2rem;
+  font-size: 1.25rem;
+}
